@@ -1,0 +1,129 @@
+/* IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+/* VARIABLES */
+
+:root {
+    /* PALETAS */
+    --primary: #1679eb;
+    --secondary: #2b2b2b;
+    --accent: #60d6eb;
+    --light: #fdfdfd;
+
+    /* FONT SIZES */
+    --text-lg: 4.8em;
+    --text-l: 3.2em;
+    --text-m: 2.2em;
+    --text-s: 1.6em;
+    --text-xs: 1em;
+
+    /* SPACINGS */
+
+    --sp-xl: 12rem;
+    --sp-l: 8rem;
+    --sp-m: 5rem;
+    --sp-s: 3.2rem;
+    --sp-xs: 1.6rem;
+
+}
+
+
+/* NORMALIZE */
+
+* {
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--text-s);
+    color: var(--secondary);
+    background-color: var(--light);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+font-size: var(--text-m);
+text-decoration: none;
+color:var(--secondary);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.glasstudio_resaltado {
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.glasstudio_resaltadogrande {
+font-weight: bold;
+color: var(--primary);
+font-size:var(--text-l);
+}
+
+.textonosotros {
+    text-align: justify;
+    font-size: var(--text-xs);
+}
+
+.fraseslogan {
+    font-weight: bold;
+    color: var(--primary);
+    font-size: var(--text-m);
+}
+
+.texto_centrado {
+    text-align: center;
+}
+
+.texto_derecha {
+    text-align: right;
+}
+
+/* HEADER */
+
+header {
+    padding: var(--sp-xs);
+    background-color: var(--accent);
+}
+
+.navbar .navbar__link {
+    display: inline-block;
+}
+
+.navbar .menu {
+    display: inline-block;
+}
+
+.navbar .menu .menu__item {
+    display: inline-block;
+}
+
+.navbar .menu .menu__link {
+    color: var(--light);
+}
+
+/* FOOTER */
+footer {
+    padding: var(--sp-xs);
+    background-color: var(--accent);
+    font-size: var(--text-xs);
+    text-decoration: none;
+    color:var(--light);
+
+}
+
+
