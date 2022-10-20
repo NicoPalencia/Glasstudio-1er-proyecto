@@ -65,8 +65,6 @@ color:var(--secondary);
 
 }
 
-
-
 .glasstudio_resaltado {
     font-weight: bold;
     color: var(--primary);
@@ -138,5 +136,3 @@ footer {
     color:var(--light);
 
 }
-
-
