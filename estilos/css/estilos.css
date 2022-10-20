@@ -15,6 +15,7 @@
     --text-lg: 4.8em;
     --text-l: 3.2em;
     --text-m: 2.2em;
+    --text-small: 1.9em;
     --text-s: 1.6em;
     --text-xs: 1em;
 
@@ -61,7 +62,10 @@ color:var(--secondary);
 .container {
     max-width: 1200px;
     margin: 0 auto;
+
 }
+
+
 
 .glasstudio_resaltado {
     font-weight: bold;
@@ -93,30 +97,36 @@ font-size:var(--text-l);
     text-align: right;
 }
 
+.map-responsive{
+    overflow:hidden;
+    padding-bottom: 30%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.datos-contacto {
+    font-size: var(--text-small);
+    color: var(--primary);
+}
+
+
+/* cosas para probar */
+
+
 /* BOOSTRAP DESREBOOT */
 
 
 /* HEADER */
 
 header {
-    padding: var(--sp-xs);
     background-color: var(--accent);
-}
-
-.navbar .navbar__link {
-    display: inline-block;
-}
-
-.navbar .menu {
-    display: inline-block;
-}
-
-.navbar .menu .menu__item {
-    display: inline-block;
-}
-
-.navbar .menu .menu__link {
-    color: var(--light);
 }
 
 /* FOOTER */
