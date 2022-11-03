@@ -1,17 +1,17 @@
 /* IMPORTS */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
 
 /* VARIABLES */
 
-:root {
-    /* PALETAS */
+/*:root {
+    /* PALETAS  *
     --primary: #1679eb;
     --secondary: #2b2b2b;
     --accent: #60d6eb;
     --light: #fdfdfd;
 
-    /* FONT SIZES */
+   /*  FONT SIZES *
     --text-lg: 4.8em;
     --text-l: 3.2em;
     --text-m: 2.2em;
@@ -19,7 +19,7 @@
     --text-s: 1.6em;
     --text-xs: 1em;
 
-    /* SPACINGS */
+   /*  SPACINGS *
 
     --sp-xl: 12rem;
     --sp-l: 8rem;
@@ -30,7 +30,7 @@
 }
 
 
-/* NORMALIZE */
+/* NORMALIZE 
 
 * {
     margin: 0;
@@ -63,9 +63,9 @@ color:var(--secondary);
     max-width: 1200px;
     margin: 0 auto;
 
-}
+}*/
 
-.glasstudio_resaltado {
+/*.glasstudio_resaltado {
     font-weight: bold;
     color: var(--primary);
 }
@@ -94,8 +94,9 @@ font-size:var(--text-l);
 .texto_derecha {
     text-align: right;
 }
+/*
 
-.map-responsive{
+/*.map-responsive{
     overflow:hidden;
     padding-bottom: 30%;
     position:relative;
@@ -112,7 +113,7 @@ font-size:var(--text-l);
 .datos-contacto {
     font-size: var(--text-small);
     color: var(--primary);
-}
+}*/
 
 
 /* cosas para probar */
@@ -121,13 +122,13 @@ font-size:var(--text-l);
 /* BOOSTRAP DESREBOOT */
 
 
-/* HEADER */
+/* HEADER 
 
 header {
     background-color: var(--accent);
-}
+}*/
 
-/* FOOTER */
+/* FOOTER 
 footer {
     padding: var(--sp-xs);
     background-color: var(--accent);
@@ -135,4 +136,4 @@ footer {
     text-decoration: none;
     color:var(--light);
 
-}
+}*/
