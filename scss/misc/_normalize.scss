@@ -12,9 +12,9 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--text-s);
-    color: var(--secondary);
-    background-color: var(--light);
+    font-size: $text-s;
+    color: $secondary;
+    background-color: $light;
 }
 
 ul {
@@ -22,12 +22,12 @@ ul {
 }
 
 a {
-font-size: var(--text-m);
+font-size: $text-m;
 text-decoration: none;
-color:var(--secondary);
+color: $secondary;
 }
 
-.container {
+.contenedor {
     max-width: 1200px;
     margin: 0 auto;
 
